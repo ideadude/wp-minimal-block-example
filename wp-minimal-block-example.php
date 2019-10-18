@@ -5,7 +5,7 @@
 function enqueue_min_block() {
 	wp_enqueue_script(
 		'minimal-block',
-		plugins_url( 'edit.js', __FILE__ ),
+		plugins_url( 'block.js', __FILE__ ),
 		array( 'wp-blocks' )
 	);
 }
